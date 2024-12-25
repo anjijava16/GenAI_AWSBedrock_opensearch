@@ -26,7 +26,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from loguru import logger
 
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = "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"
+os.environ["LANGCHAIN_API_KEY"] = "lsv2-xxx"
 
 # logger configuration
 logger.remove()
