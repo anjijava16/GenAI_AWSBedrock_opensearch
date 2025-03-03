@@ -48,20 +48,25 @@ conda activate main-env
 
 ##  Sample Requset 
    
-```
+``
    {
   "query": "Can you describe the React approach?",
   "user_id": "string"
   }
-  ```
+  ``
 
 ##  Resposne
 
-```
+``
 {
   "response": "Based on the context provided, I can describe the ReAct (Reasoning and Acting) approach in the following way:\n\n1) ReAct is a method that allows large language models to synergize reasoning and acting for tasks that require multi-step reasoning and decision making in interactive environments.\n\n2) It prompts the language model with sparse thoughts or reasoning steps along with the observations and actions taken in an interactive environment. This allows the model to integrate its reasoning process with the actions and observations in a coherent stream of inputs.\n\n3) For example, in a question-answering task, ReAct would prompt the model with thoughts like \"I need to search for X\", followed by the search results, then \"The observation says Y, so the answer is Z\". This interleaves the reasoning process with the actions taken (searching) and observations received.\n\n4) ReAct was evaluated on multi-hop question-answering tasks like HotpotQA, fact-checking tasks, and interactive decision-making environments like ALFWorld (a text-based game) and WebShop (an online shopping website). It showed superior performance compared to baselines like just prompting actions or using chain-of-thought prompting.\n\n5) The key advantage of ReAct is that it allows the language model to perform interpretable multi-step reasoning integrated with actions taken in an interactive environment, leading to better performance on complex reasoning and decision-making tasks."
 
  
 }
 
-```
+``
+
+# Opensearch RAG with Deepseek Model
+
+![image](https://github.com/user-attachments/assets/4751df9c-1680-42b1-ae72-124f183bd3dc)
+
