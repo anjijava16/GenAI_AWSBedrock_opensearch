@@ -70,3 +70,19 @@ conda activate main-env
 
 ![image](https://github.com/user-attachments/assets/4751df9c-1680-42b1-ae72-124f183bd3dc)
 
+
+## Install required packages
+
+To install required packages, run the following command:
+
+pip install opensearch-py transformers torch sentence-transformers
+
+These packages form the backbone of the RAG system:
+
+opensearch-py: The official Python client for OpenSearch
+
+transformers: Hugging Face’s library for working with transformer models
+
+torch: PyTorch library for deep learning operations
+
+sentence-transformers: Used for creating embeddings
