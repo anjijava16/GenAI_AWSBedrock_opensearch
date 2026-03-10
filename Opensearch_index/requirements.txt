@@ -1,0 +1,29 @@
+# requirements.txt
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+
+# LangChain ecosystem
+langchain==0.3.0
+langchain-community==0.3.0
+langchain-openai==0.2.0
+langchain-core==0.3.0
+
+# OpenSearch
+opensearch-py==2.7.0
+langchain-opensearch==0.1.0   # or use langchain_community.vectorstores
+
+# Document loaders
+pypdf==4.3.0
+unstructured==0.15.0
+python-docx==1.1.0
+
+# Infra
+redis==5.0.0
+pyjwt==2.9.0
+celery==5.4.0          # async ingestion jobs
+python-dotenv==1.0.0
+
+# Embeddings / LLMs
+openai==1.50.0
+# boto3==1.35.0         # if using AWS Bedrock embeddings
