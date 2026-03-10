@@ -1,5 +1,5 @@
 # Input Opensearch Schema 
-```
+```json
 
 """OpenSearch index configuration for hybrid search (BM25 + Vector).
 
